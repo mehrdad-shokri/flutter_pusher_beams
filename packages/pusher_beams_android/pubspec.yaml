@@ -12,7 +12,10 @@ dependencies:
   flutter:
     sdk: flutter
   pusher_beams_platform_interface:
-    path: ../pusher_beams_platform_interface # CHANGE FOR VERSION ONCE PUBLISHED
+    git:
+      url: git://github.com/mehrdad-shokri/flutter_pusher_beams
+      path: packages/pusher_beams_platform_interface
+      ref: develop
 
 dev_dependencies:
   flutter_test:
