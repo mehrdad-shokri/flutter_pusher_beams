@@ -14,7 +14,10 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   pusher_beams_platform_interface:
-    path: ../pusher_beams_platform_interface # CHANGE FOR VERSION ONCE PUBLISHED
+    git:
+      url: git://github.com/mehrdad-shokri/flutter_pusher_beams
+      path: packages/pusher_beams_platform_interface
+      ref: develop
   js: ^0.6.3
   uuid: ^3.0.5
 
