@@ -12,13 +12,25 @@ dependencies:
   flutter:
     sdk: flutter
   pusher_beams_platform_interface:
-    path: ../pusher_beams_platform_interface # CHANGE FOR VERSION ONCE PUBLISHED
+    git:
+      url: git://github.com/mehrdad-shokri/flutter_pusher_beams
+      path: packages/pusher_beams_platform_interface
+      ref: develop
   pusher_beams_web:
-    path: ../pusher_beams_web # CHANGE FOR VERSION ONCE PUBLISHED
+    git:
+      url: git://github.com/mehrdad-shokri/flutter_pusher_beams
+      path: packages/pusher_beams_web
+      ref: develop
   pusher_beams_android:
-    path: ../pusher_beams_android # CHANGE FOR VERSION ONCE PUBLISHED
+    git:
+      url: git://github.com/mehrdad-shokri/flutter_pusher_beams
+      path: packages/pusher_beams_android
+      ref: develop
   pusher_beams_ios:
-    path: ../pusher_beams_ios # CHANGE FOR VERSION ONCE PUBLISHED
+    git:
+      url: git://github.com/mehrdad-shokri/flutter_pusher_beams
+      path: packages/pusher_beams_ios
+      ref: develop
   uuid: ^3.0.5
 
 dev_dependencies:
